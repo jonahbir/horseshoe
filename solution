@@ -1,0 +1,5 @@
+
+def horseshoe(colors):
+    return len(colors)-len(set(colors))
+colors=list(map(int,input().split()))
+print(horseshoe(colors))
